@@ -15,7 +15,7 @@ async function getQuote() {
     const quoteAuthor = data.author;
     quoteEl.innerText = quoteContent;
     authorEl.innerText = "~ " + quoteAuthor;
-    btnEl.innerText = "Gey a Quote";
+    btnEl.innerText = "Get a Quote";
     btnEl.disabled = false;
     // console.log(data);      
   } catch (error) {
